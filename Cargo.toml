@@ -9,6 +9,8 @@ repository = "https://github.com/nrxus/faux"
 edition = "2021"
 keywords = ["mock", "mocking", "test", "testing", "faux"]
 readme = "README.md"
+# uncomment when MSRV is 1.56+
+# rust = "1.51"
 
 [dependencies]
 faux_macros = { path = "faux_macros", version = "0.1.5" }
